@@ -10,8 +10,8 @@ function reverseInt ($value){
 
     while($value > 0)
     {
-        $lastDigit = $value % 10;
-        $value = (int) ($value/10);
+        $lastDigit = $value % 10; // 5
+        $value = (int) ($value/10); // 1234
 
         $reverse = ($reverse * 10) + $lastDigit;
     }
@@ -19,4 +19,4 @@ function reverseInt ($value){
         return $negative ? -1 * $reverse : $reverse;
 }
 
-echo reverseInt(-12345);
+echo reverseInt(12345);
