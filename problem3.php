@@ -18,8 +18,6 @@ function reverseEachWordSolutionOne($text)
 
 echo reverseEachWordSolutionOne($textOne);
 
-
-
 /**
  * Problem - 03
  * String reverse of each word not full sentance.
