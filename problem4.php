@@ -3,7 +3,7 @@
 /**
  * Problem Solve
  * problem - 04
- * Stars pyramid.
+ * Stars pyramid shape.
  */
 $number = 10;
 pyramidShape($number);
