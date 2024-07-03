@@ -2,9 +2,11 @@
 
 // ============ Callback function use as Argument & find Even Number =================
 
+// Find out an even number
+
 $num = [1,2,3,4,5,6,7,8,9];
 
-function filterArray($numbers, $callback){
+function findEvenNumber($numbers, $callback){
     $result = [];
     foreach($numbers as $number){
         if($callback($number)){
@@ -14,7 +16,7 @@ function filterArray($numbers, $callback){
     return $result;
 }
 
-$output = filterArray($num, function($number){
+$output = findEvenNumber($num, function($number){
     if($number % 2 == 0){
         return $number;
     }
